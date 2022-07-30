@@ -155,10 +155,6 @@ footer .last-per {
 }
 
 @media (max-width:768px) {
-
-    body {
-        height: auto;
-    }
     .container{
         margin-top: 30px;
         width: 97vw;
