@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body class="flex">
+  <div class="container">
+    <div class="my-balance flex">
+      <div class="balance">
+        <span class="balance-text">My balance</span>
+        <h2 class="balance-price">$921.48</h2>
+      </div> 
+      <img src="./images/logo.svg" alt="">
+    </div>
+    <div class="data">
+      <h1 class="title">Spending - Last 7 days</h1>
+      <div class="bars flex"></div>
+      <footer class="flex">
+        <div class="total">
+          <span class="total-text">Total this month</span>
+          <h4 class="total-price">$478.33</h4>
+        </div>
+        <div class="last-month">
+          <h5 class="last-per">+2.4%</h5>
+          <span class="last-text">from last month</span>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://alinemat.ir">Ali Nemat</a>.
+  </div>
+  <script src="./data.json"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
